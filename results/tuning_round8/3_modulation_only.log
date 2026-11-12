@@ -1,0 +1,17 @@
+start PESQ=1.7319 SNR=11.88
+  mod_overest=1.5        PESQ=1.7043 SNR=10.88
+  mod_overest=2.5        PESQ=1.6189 SNR=9.43
+best mod_overest=1.0
+  mod_xi_min_db=-15.0      PESQ=1.7006 SNR=11.89
+  mod_xi_min_db=-25.0      PESQ=1.7366 SNR=11.87  *
+best mod_xi_min_db=-25.0
+  mod_dd_alpha=0.9        PESQ=1.7437 SNR=12.42  *
+  mod_dd_alpha=0.98       PESQ=1.6910 SNR=10.89
+best mod_dd_alpha=0.9
+  mod_win_ms=128.0      PESQ=1.8050 SNR=13.67  *
+  mod_win_ms=384.0      PESQ=1.6900 SNR=11.15
+best mod_win_ms=128.0
+  mod_init_fraction=0.1        PESQ=1.8087 SNR=13.73  *
+  mod_init_fraction=0.25       PESQ=1.7657 SNR=13.11
+best mod_init_fraction=0.1
+FINAL {'mod_overest': 1.0, 'mod_xi_min_db': -25.0, 'mod_dd_alpha': 0.9, 'mod_win_ms': 128.0, 'mod_init_fraction': 0.1} PESQ=1.8087

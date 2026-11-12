@@ -1,0 +1,31 @@
+start PESQ=1.9280 SNR=14.21
+  gain_floor_db=-32        PESQ=1.9280 SNR=14.21
+  gain_floor_db=-36        PESQ=1.9280 SNR=14.21
+best gain_floor_db=-28
+  hrnr_mix=0.6        PESQ=1.9282 SNR=14.18  *
+  hrnr_mix=0.9        PESQ=1.9252 SNR=14.22
+best hrnr_mix=0.6
+  tsnr=True       PESQ=1.9281 SNR=14.31
+best tsnr=False
+  tsnr_mix=0.3        PESQ=1.9282 SNR=14.18
+  tsnr_mix=0.7        PESQ=1.9282 SNR=14.18
+best tsnr_mix=1.0
+  hrnr_scale=0.75       PESQ=1.9278 SNR=14.12
+  hrnr_scale=1.5        PESQ=1.9233 SNR=14.23
+best hrnr_scale=1.0
+  dd_alpha=0.93       PESQ=1.9193 SNR=14.23
+  dd_alpha=0.97       PESQ=1.9301 SNR=14.02  *
+best dd_alpha=0.97
+  noise_overest=1.4        PESQ=1.9326 SNR=14.12  *
+  noise_overest=1.8        PESQ=1.9281 SNR=13.91
+best noise_overest=1.4
+  frame_ms=80         PESQ=1.9295 SNR=14.11
+  frame_ms=112        PESQ=1.9274 SNR=14.07
+best frame_ms=96.0
+  quantile_q=0.3        PESQ=1.9305 SNR=14.11
+  quantile_q=0.5        PESQ=1.9344 SNR=14.12  *
+best quantile_q=0.5
+  xi_min_db=-25        PESQ=1.9562 SNR=14.13  *
+  xi_min_db=-30        PESQ=1.9587 SNR=14.14  *
+best xi_min_db=-30
+FINAL {'gain_floor_db': -28, 'hrnr_mix': 0.6, 'tsnr': False, 'tsnr_mix': 1.0, 'hrnr_scale': 1.0, 'dd_alpha': 0.97, 'noise_overest': 1.4, 'frame_ms': 96.0, 'quantile_q': 0.5, 'xi_min_db': -30} PESQ=1.9587

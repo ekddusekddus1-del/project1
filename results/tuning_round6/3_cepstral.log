@@ -1,0 +1,18 @@
+start PESQ=1.9219 SNR=11.24
+  cep_alpha_rest=0.5        PESQ=1.9698 SNR=13.48  *
+  cep_alpha_rest=0.7        PESQ=1.9579 SNR=12.84
+  cep_alpha_rest=0.95       PESQ=1.8924 SNR=10.41
+best cep_alpha_rest=0.5
+  cep_mix=0.3        PESQ=1.9742 SNR=13.97  *
+  cep_mix=0.6        PESQ=1.9760 SNR=13.79  *
+best cep_mix=0.6
+  cep_env_ms=0.5        PESQ=1.9745 SNR=13.79
+  cep_env_ms=2.0        PESQ=1.9757 SNR=13.80
+best cep_env_ms=1.0
+  cep_alpha_pitch=0.1        PESQ=1.9740 SNR=13.85
+  cep_alpha_pitch=0.7        PESQ=1.9724 SNR=13.44
+best cep_alpha_pitch=0.4
+  cep_alpha_env=0.0        PESQ=1.9774 SNR=13.81  *
+  cep_alpha_env=0.5        PESQ=1.9711 SNR=13.55
+best cep_alpha_env=0.0
+FINAL {'cep_alpha_rest': 0.5, 'cep_mix': 0.6, 'cep_env_ms': 1.0, 'cep_alpha_pitch': 0.4, 'cep_alpha_env': 0.0} PESQ=1.9774

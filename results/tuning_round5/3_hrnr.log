@@ -1,0 +1,17 @@
+start PESQ=1.9202 SNR=14.22
+  hrnr_gain='wiener'   PESQ=1.9027 SNR=14.21
+best hrnr_gain='lsa'
+  hrnr_mix=0.25       PESQ=1.9142 SNR=14.05
+  hrnr_mix=0.5        PESQ=1.9257 SNR=14.15  *
+  hrnr_mix=0.75       PESQ=1.9280 SNR=14.21  *
+best hrnr_mix=0.75
+  hrnr_scale=0.5        PESQ=1.9234 SNR=14.00
+  hrnr_scale=2.0        PESQ=1.9113 SNR=14.25
+best hrnr_scale=1.0
+  gain_floor_db=-20        PESQ=1.9181 SNR=14.20
+  gain_floor_db=-28        PESQ=1.9280 SNR=14.21  *
+best gain_floor_db=-28
+  noise_overest=1.2        PESQ=1.9095 SNR=14.24
+  noise_overest=2.0        PESQ=1.9258 SNR=14.05
+best noise_overest=1.6
+FINAL {'hrnr_gain': 'lsa', 'hrnr_mix': 0.75, 'hrnr_scale': 1.0, 'gain_floor_db': -28, 'noise_overest': 1.6} PESQ=1.9280

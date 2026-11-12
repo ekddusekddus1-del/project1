@@ -1,0 +1,55 @@
+default          all-files PESQ 1.9740 (+0.0000)
+multiband        all-files PESQ 1.9914 (+0.0174)
+tone_1.0         all-files PESQ 1.6584 (-0.3156)
+tone_0.5         all-files PESQ 1.7201 (-0.2539)
+tone_1.0_th15    all-files PESQ 1.7285 (-0.2455)
+tone_1.0_0.25s   all-files PESQ 1.5008 (-0.4733)
+lf_0.3           all-files PESQ 1.6172 (-0.3568)
+lf_0.6           all-files PESQ 1.4976 (-0.4765)
+lf_1.0           all-files PESQ 1.4768 (-0.4972)
+fast_0.15        all-files PESQ 1.8440 (-0.1300)
+fast_0.3         all-files PESQ 1.6014 (-0.3726)
+fast_0.6         all-files PESQ 1.4117 (-0.5623)
+trans_0.25       all-files PESQ 1.5305 (-0.4436)
+trans_0.5        all-files PESQ 1.3623 (-0.6117)
+trans_1.0        all-files PESQ 1.2391 (-0.7350)
+wiener           all-files PESQ 1.9328 (-0.0412)
+ss               all-files PESQ 1.8105 (-0.1635)
+milder           all-files PESQ 1.9537 (-0.0203)
+stronger         all-files PESQ 1.9696 (-0.0044)
+
+Per category: best config (gain over default) | top-3
+  machine                n= 69 default 1.999 | multiband +0.001, default +0.000, stronger -0.001
+  alarm_siren            n= 62 default 1.999 | multiband +0.027, stronger +0.003, default +0.000
+  wind                   n= 60 default 2.014 | milder +0.001, default +0.000, stronger -0.011
+  aircraft_cockpit       n= 36 default 1.814 | multiband +0.067, stronger +0.018, default +0.000
+  broadband_noise        n= 34 default 1.780 | multiband +0.073, stronger +0.005, default +0.000
+  water                  n= 19 default 1.576 | multiband +0.047, stronger +0.027, milder +0.007
+  animal                 n= 16 default 1.584 | multiband +0.013, milder +0.012, default +0.000
+  traffic_vehicle        n= 16 default 1.790 | milder +0.008, multiband +0.001, default +0.000
+  phone_dialing          n= 13 default 3.277 | default +0.000, multiband -0.009, wiener -0.063
+  factory                n= 12 default 2.142 | stronger +0.020, milder +0.012, default +0.000
+  military_vehicle       n= 12 default 2.468 | milder +0.016, default +0.000, wiener -0.037
+  destroyer_engine       n= 12 default 1.882 | wiener +0.033, multiband +0.010, default +0.000
+  hf_channel             n= 12 default 1.712 | multiband +0.053, stronger +0.031, default +0.000
+  destroyer_operations   n= 10 default 2.045 | multiband +0.026, milder +0.020, default +0.000
+  vehicle_interior       n=  5 default 3.406 | milder +0.034, default +0.000, multiband -0.040
+  bell                   n=  3 default 1.605 | multiband +0.089, tone_0.5 +0.089, tone_1.0 +0.086
+  shower                 n=  2 default 1.842 | multiband +0.106, stronger +0.078, default +0.000
+  machine_gun            n=  2 default 1.788 | trans_0.25 +0.121, milder +0.011, wiener +0.003
+  footsteps              n=  2 default 1.385 | fast_0.15 +0.029, multiband +0.012, milder +0.005
+  tooth_brushing         n=  2 default 1.173 | milder +0.007, multiband +0.002, default +0.000
+  door_moving            n=  1 default 1.363 | trans_0.5 +0.093, trans_0.25 +0.082, stronger +0.026
+
+Per group: best config
+  A_stationary_broadband       n= 92 default 1.813 best multiband 1.876 (+0.063)
+  B_low_frequency              n=174 default 2.068 best milder 2.071 (+0.003)
+  C_tonal                      n= 87 default 2.174 best multiband 2.194 (+0.019)
+  D_impulsive                  n= 24 default 1.578 best multiband 1.596 (+0.018)
+  E_nonstationary_broadband    n= 23 default 1.564 best multiband 1.612 (+0.048)
+
+default (all files)        : 1.9740
+best single config         : 1.9914 (multiband)
+oracle per GROUP (5 rules) : 1.9978
+oracle per CATEGORY (23)   : 2.0009
+oracle per FILE            : 2.0636

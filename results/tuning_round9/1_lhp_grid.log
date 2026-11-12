@@ -1,0 +1,9 @@
+default  bad-4 1.5986  train-other 2.0567  validation 2.0408
+lhp_floor_db=-6.0                             bad-4 -0.0024  train-other +0.0021  validation +0.0046  | train-all +0.0014
+lhp_floor_db=-10.0                            bad-4 -0.0010  train-other +0.0014  validation +0.0025  | train-all +0.0010
+lhp_floor_db=-3.0                             bad-4 -0.0044  train-other +0.0018  validation +0.0054  | train-all +0.0008
+lhp_floor_db=-6.0,lhp_gamma_db=6.0            bad-4 -0.0011  train-other +0.0010  validation +0.0022  | train-all +0.0007
+lhp_floor_db=-6.0,lhp_gamma_db=0.0            bad-4 -0.0025  train-other +0.0024  validation +0.0050  | train-all +0.0016
+lhp_floor_db=-6.0,lhp_fmax_hz=500.0           bad-4 -0.0039  train-other +0.0021  validation +0.0064  | train-all +0.0012
+lhp_floor_db=-6.0,lhp_lobe_hz=25.0            bad-4 -0.0034  train-other +0.0017  validation +0.0043  | train-all +0.0009
+lhp_floor_db=-6.0,lhp_vth=0.45                bad-4 -0.0027  train-other +0.0034  validation +0.0068  | train-all +0.0024

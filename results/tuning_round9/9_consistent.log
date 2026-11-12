@@ -1,0 +1,6 @@
+default  bad-4 1.6108  train-other 2.0778  validation 2.0512
+cw_iters=5                                    bad-4 -0.0099  train-other -0.0030  validation -0.0094  | train-all -0.0041
+cw_iters=10                                   bad-4 -0.0124  train-other -0.0061  validation -0.0132  | train-all -0.0071
+cw_iters=20                                   bad-4 -0.0153  train-other -0.0075  validation -0.0158  | train-all -0.0088
+cw_iters=10,cw_pow=0.5                        bad-4 -0.0142  train-other -0.0059  validation -0.0076  | train-all -0.0072
+cw_iters=10,cw_pow=1.5                        bad-4 -0.0086  train-other -0.0018  validation -0.0054  | train-all -0.0029

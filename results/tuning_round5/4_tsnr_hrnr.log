@@ -1,0 +1,9 @@
+start PESQ=1.9133 SNR=14.29
+  tsnr_mix=0.5        PESQ=1.9184 SNR=14.26  *
+best tsnr_mix=0.5
+  hrnr_mix=0.5        PESQ=1.9288 SNR=14.24  *
+best hrnr_mix=0.5
+  noise_overest=1.3        PESQ=1.9164 SNR=14.27
+  noise_overest=2.0        PESQ=1.9231 SNR=14.08
+best noise_overest=1.6
+FINAL {'tsnr_mix': 0.5, 'hrnr_mix': 0.5, 'noise_overest': 1.6} PESQ=1.9288

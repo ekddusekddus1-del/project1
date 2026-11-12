@@ -1,0 +1,8 @@
+default  bad-4 1.5986  train-other 2.0567  validation 2.0408
+mr_mode='min',mr_weight=0.2                   bad-4 +0.0003  train-other +0.0103  validation +0.0072  | train-all +0.0087
+mr_mode='min',mr_weight=0.4                   bad-4 -0.0043  train-other +0.0153  validation +0.0080  | train-all +0.0122
+mr_mode='min',mr_weight=0.3,mr_frame_ms=24.0  bad-4 +0.0029  train-other +0.0156  validation +0.0094  | train-all +0.0136
+mr_mode='min',mr_weight=0.4,mr_frame_ms=24.0  bad-4 +0.0007  train-other +0.0169  validation +0.0087  | train-all +0.0143
+mr_mode='min',mr_weight=0.3,mr_an_ms=16.0     bad-4 +0.0035  train-other +0.0149  validation +0.0104  | train-all +0.0131
+mr_mode='min',mr_weight=0.3,mr_an_ms=64.0     bad-4 -0.0022  train-other +0.0083  validation +0.0052  | train-all +0.0066
+mr_mode='min',mr_weight=0.3,mr_frame_ms=16.0  bad-4 +0.0039  train-other +0.0175  validation +0.0100  | train-all +0.0153

@@ -1,0 +1,6 @@
+default  bad-4 1.6108  train-other 2.0778  validation 2.0512
+mod_mix=0.15                                  bad-4 +0.0046  train-other -0.0017  validation -0.0021  | train-all -0.0007
+mod_mix=0.35                                  bad-4 -0.0089  train-other -0.0008  validation +0.0009  | train-all -0.0021
+mod_mode='off'                                bad-4 +0.0105  train-other -0.0086  validation -0.0101  | train-all -0.0056
+mr_weight=0.35                                bad-4 -0.0002  train-other -0.0009  validation +0.0008  | train-all -0.0007
+mr_weight=0.45                                bad-4 -0.0004  train-other +0.0002  validation -0.0015  | train-all +0.0001

@@ -1,0 +1,11 @@
+start PESQ=1.9980 SNR=13.85
+  mod_win_ms=128.0      PESQ=1.9936 SNR=14.01
+best mod_win_ms=256.0
+  mod_dd_alpha=0.9        PESQ=1.9968 SNR=13.88
+best mod_dd_alpha=0.95
+  mod_mix=0.15       PESQ=1.9973 SNR=13.97
+  mod_mix=0.35       PESQ=1.9968 SNR=13.70
+best mod_mix=0.25
+  mod_xi_min_db=-15.0      PESQ=1.9970 SNR=13.81
+best mod_xi_min_db=-10.0
+FINAL {'mod_win_ms': 256.0, 'mod_dd_alpha': 0.95, 'mod_mix': 0.25, 'mod_xi_min_db': -10.0} PESQ=1.9980

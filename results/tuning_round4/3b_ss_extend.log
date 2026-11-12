@@ -1,0 +1,12 @@
+start PESQ=1.7975 SNR=14.28
+  noise_overest=3.5        PESQ=1.8090 SNR=14.31  *
+  noise_overest=4.0        PESQ=1.8131 SNR=14.28  *
+  noise_overest=5.0        PESQ=1.8079 SNR=14.13
+best noise_overest=4.0
+  frame_ms=112        PESQ=1.8117 SNR=14.22
+  frame_ms=128        PESQ=1.8086 SNR=14.10
+best frame_ms=96
+  gain_floor_db=-17        PESQ=1.8109 SNR=14.26
+  gain_floor_db=-24        PESQ=1.7987 SNR=14.27
+best gain_floor_db=-21.0
+FINAL {'noise_overest': 4.0, 'frame_ms': 96, 'gain_floor_db': -21.0} PESQ=1.8131

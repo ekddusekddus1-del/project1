@@ -1,0 +1,31 @@
+start PESQ=1.7548 SNR=14.17
+  sg_mu=0.5        PESQ=1.7445 SNR=12.97
+  sg_mu=1.0        PESQ=1.8229 SNR=14.19  *
+  sg_mu=2.5        PESQ=1.6715 SNR=13.71
+  sg_mu=3.5        PESQ=1.5869 SNR=13.09
+best sg_mu=1.0
+  sg_nu=0.05       PESQ=1.7875 SNR=14.23
+  sg_nu=0.3        PESQ=1.8533 SNR=13.97  *
+  sg_nu=0.6        PESQ=1.7746 SNR=13.10
+best sg_nu=0.3
+  noise_overest=1.3        PESQ=1.8233 SNR=13.64
+  noise_overest=2.0        PESQ=1.8726 SNR=14.19  *
+best noise_overest=2.0
+  xi_min_db=-30.0      PESQ=1.8758 SNR=14.19  *
+  xi_min_db=-40.0      PESQ=1.8718 SNR=14.19
+best xi_min_db=-30.0
+  hrnr_gain='lsa'      PESQ=1.9316 SNR=14.27  *
+best hrnr_gain='lsa'
+  sg_mu=0.5        PESQ=1.7185 SNR=13.03
+  sg_mu=2.5        PESQ=1.8293 SNR=13.75
+  sg_mu=3.5        PESQ=1.7574 SNR=13.23
+best sg_mu=1.0
+  sg_nu=0.05       PESQ=1.9042 SNR=14.32
+  sg_nu=0.6        PESQ=1.8806 SNR=13.90
+best sg_nu=0.3
+  noise_overest=1.3        PESQ=1.8696 SNR=13.88
+best noise_overest=2.0
+  xi_min_db=-40.0      PESQ=1.9291 SNR=14.27
+best xi_min_db=-30.0
+best hrnr_gain='lsa'
+FINAL {'sg_mu': 1.0, 'sg_nu': 0.3, 'noise_overest': 2.0, 'xi_min_db': -30.0, 'hrnr_gain': 'lsa'} PESQ=1.9316

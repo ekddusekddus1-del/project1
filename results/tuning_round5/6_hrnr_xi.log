@@ -1,0 +1,53 @@
+start PESQ=1.9587 SNR=14.14
+  xi_min_db=-35        PESQ=1.9581 SNR=14.14
+  xi_min_db=-40        PESQ=1.9579 SNR=14.14
+  xi_min_db=-50        PESQ=1.9579 SNR=14.14
+best xi_min_db=-30
+  gain_floor_db=-24        PESQ=1.9464 SNR=14.13
+  gain_floor_db=-32        PESQ=1.9636 SNR=14.14  *
+  gain_floor_db=-36        PESQ=1.9636 SNR=14.14  *
+  gain_floor_db=-40        PESQ=1.9636 SNR=14.14
+best gain_floor_db=-36
+  hrnr_mix=0.45       PESQ=1.9582 SNR=14.07
+  hrnr_mix=0.75       PESQ=1.9630 SNR=14.18
+best hrnr_mix=0.6
+  dd_alpha=0.95       PESQ=1.9521 SNR=14.25
+  dd_alpha=0.98       PESQ=1.9628 SNR=13.99
+best dd_alpha=0.97
+  noise_overest=1.2        PESQ=1.9536 SNR=14.20
+  noise_overest=1.6        PESQ=1.9673 SNR=14.04  *
+best noise_overest=1.6
+  quantile_q=0.4        PESQ=1.9662 SNR=14.05
+  quantile_q=0.6        PESQ=1.9639 SNR=14.02
+best quantile_q=0.5
+  hrnr_scale=0.75       PESQ=1.9635 SNR=13.95
+  hrnr_scale=1.25       PESQ=1.9685 SNR=14.10  *
+best hrnr_scale=1.25
+  frame_ms=80         PESQ=1.9664 SNR=14.10
+  frame_ms=112        PESQ=1.9619 SNR=14.03
+best frame_ms=96.0
+  xi_min_db=-35        PESQ=1.9726 SNR=14.10  *
+  xi_min_db=-40        PESQ=1.9724 SNR=14.10
+  xi_min_db=-50        PESQ=1.9722 SNR=14.10
+best xi_min_db=-35
+  gain_floor_db=-24        PESQ=1.9505 SNR=14.09
+  gain_floor_db=-32        PESQ=1.9690 SNR=14.10
+  gain_floor_db=-40        PESQ=1.9728 SNR=14.10  *
+best gain_floor_db=-40
+  hrnr_mix=0.45       PESQ=1.9688 SNR=14.01
+  hrnr_mix=0.75       PESQ=1.9706 SNR=14.16
+best hrnr_mix=0.6
+  dd_alpha=0.95       PESQ=1.9654 SNR=14.24
+  dd_alpha=0.98       PESQ=1.9689 SNR=13.92
+best dd_alpha=0.97
+  noise_overest=1.2        PESQ=1.9538 SNR=14.22
+best noise_overest=1.6
+  quantile_q=0.4        PESQ=1.9740 SNR=14.10  *
+  quantile_q=0.6        PESQ=1.9706 SNR=14.08
+best quantile_q=0.4
+  hrnr_scale=0.75       PESQ=1.9669 SNR=13.96
+best hrnr_scale=1.25
+  frame_ms=80         PESQ=1.9672 SNR=14.10
+  frame_ms=112        PESQ=1.9669 SNR=14.05
+best frame_ms=96.0
+FINAL {'xi_min_db': -35, 'gain_floor_db': -40, 'hrnr_mix': 0.6, 'dd_alpha': 0.97, 'noise_overest': 1.6, 'quantile_q': 0.4, 'hrnr_scale': 1.25, 'frame_ms': 96.0} PESQ=1.9740

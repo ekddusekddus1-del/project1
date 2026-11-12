@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+# dataset is distributed separately; do not commit audio
+noise_reduction_challenge/
+input/
+output/
+*.wav

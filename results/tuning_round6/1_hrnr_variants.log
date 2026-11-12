@@ -1,0 +1,16 @@
+start PESQ=1.9740 SNR=14.10
+  hrnr_iters=2          PESQ=1.9669 SNR=14.24
+  hrnr_iters=3          PESQ=1.9527 SNR=14.30
+best hrnr_iters=1
+  hrnr_nl='full'     PESQ=1.9674 SNR=14.20
+best hrnr_nl='half'
+  hrnr_rho_pow=0.5        PESQ=1.9707 SNR=14.09
+  hrnr_rho_pow=2.0        PESQ=1.9736 SNR=14.09
+best hrnr_rho_pow=1.0
+  hrnr_mix=0.5        PESQ=1.9697 SNR=14.05
+  hrnr_mix=0.7        PESQ=1.9705 SNR=14.15
+best hrnr_mix=0.6
+  hrnr_scale=1.0        PESQ=1.9732 SNR=14.05
+  hrnr_scale=1.5        PESQ=1.9719 SNR=14.14
+best hrnr_scale=1.25
+FINAL {'hrnr_iters': 1, 'hrnr_nl': 'half', 'hrnr_rho_pow': 1.0, 'hrnr_mix': 0.6, 'hrnr_scale': 1.25} PESQ=1.9740

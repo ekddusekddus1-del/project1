@@ -1,0 +1,15 @@
+start PESQ=1.8816 SNR=13.95
+  refine_th=0.1        PESQ=1.8745 SNR=13.70
+  refine_th=0.2        PESQ=1.8646 SNR=13.51
+  refine_th=0.35       PESQ=1.8418 SNR=13.19
+  refine_th=0.5        PESQ=1.8243 SNR=12.93
+best refine_th=0.0
+  noise_overest=1.2        PESQ=1.8684 SNR=14.11
+  noise_overest=1.4        PESQ=1.8779 SNR=14.05
+  noise_overest=1.8        PESQ=1.8799 SNR=13.83
+  noise_overest=2.0        PESQ=1.8737 SNR=13.69
+best noise_overest=1.6
+  gain_floor_db=-18        PESQ=1.8663 SNR=13.93
+  gain_floor_db=-24        PESQ=1.8825 SNR=13.95  *
+best gain_floor_db=-24
+FINAL {'refine_th': 0.0, 'noise_overest': 1.6, 'gain_floor_db': -24} PESQ=1.8825

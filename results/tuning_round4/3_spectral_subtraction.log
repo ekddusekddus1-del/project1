@@ -1,0 +1,18 @@
+start PESQ=1.7046 SNR=13.43
+  noise_overest=1.0        PESQ=1.6231 SNR=12.41
+  noise_overest=1.3        PESQ=1.6740 SNR=13.02
+  noise_overest=2.0        PESQ=1.7378 SNR=13.83  *
+  noise_overest=2.5        PESQ=1.7664 SNR=14.12  *
+  noise_overest=3.0        PESQ=1.7857 SNR=14.26  *
+best noise_overest=3.0
+  gain_floor_db=-10        PESQ=1.7151 SNR=13.69
+  gain_floor_db=-14        PESQ=1.7652 SNR=14.07
+  gain_floor_db=-17        PESQ=1.7842 SNR=14.19
+  gain_floor_db=-24        PESQ=1.7769 SNR=14.27
+best gain_floor_db=-21.0
+  frame_ms=32         PESQ=1.6643 SNR=13.36
+  frame_ms=48         PESQ=1.7208 SNR=13.88
+  frame_ms=64         PESQ=1.7625 SNR=14.13
+  frame_ms=96         PESQ=1.7975 SNR=14.28  *
+best frame_ms=96
+FINAL {'noise_overest': 3.0, 'gain_floor_db': -21.0, 'frame_ms': 96} PESQ=1.7975
