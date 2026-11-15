@@ -1,0 +1,69 @@
+start PESQ=1.9914 SNR=14.08
+  band_over_hi=1.5        PESQ=1.9899 SNR=14.09
+  band_over_hi=2.2        PESQ=1.9916 SNR=14.08  *
+  band_over_hi=2.6        PESQ=1.9884 SNR=14.07
+best band_over_hi=2.2
+  band_over_mid=1.1        PESQ=1.9891 SNR=14.09
+  band_over_mid=1.4        PESQ=1.9925 SNR=14.06  *
+best band_over_mid=1.4
+  band_over_lo=0.85       PESQ=1.9922 SNR=14.16
+  band_over_lo=1.15       PESQ=1.9861 SNR=13.95
+best band_over_lo=1.0
+  band_ximin_lo_db=-2.5       PESQ=1.9923 SNR=14.06
+  band_ximin_lo_db=-10.0      PESQ=1.9924 SNR=14.06
+best band_ximin_lo_db=-5.0
+  band_ximin_mid_db=-2.5       PESQ=1.9918 SNR=14.06
+  band_ximin_mid_db=-10.0      PESQ=1.9900 SNR=14.06
+best band_ximin_mid_db=-5.0
+  band_ximin_hi_db=-5.0       PESQ=1.9932 SNR=14.06  *
+  band_ximin_hi_db=5.0        PESQ=1.9890 SNR=14.06
+best band_ximin_hi_db=-5.0
+  band_edges_hz=(800.0, 3000.0) PESQ=1.9897 SNR=14.03
+  band_edges_hz=(1000.0, 3000.0) PESQ=1.9913 SNR=14.04
+  band_edges_hz=(1500.0, 5000.0) PESQ=1.9918 SNR=14.09
+  band_edges_hz=(1000.0, 5500.0) PESQ=1.9922 SNR=14.08
+best band_edges_hz=(1000.0, 4000.0)
+  noise_overest=1.4        PESQ=1.9914 SNR=14.16
+  noise_overest=1.8        PESQ=1.9871 SNR=13.95
+best noise_overest=1.6
+  xi_min_db=-30.0      PESQ=1.9901 SNR=14.06
+  xi_min_db=-40.0      PESQ=1.9931 SNR=14.06
+best xi_min_db=-35.0
+  cep_smooth=True       PESQ=1.9426 SNR=11.17
+best cep_smooth=False
+  cep_mix=0.3        PESQ=1.9932 SNR=14.06
+  cep_mix=0.6        PESQ=1.9932 SNR=14.06
+best cep_mix=1.0
+  band_over_hi=1.5        PESQ=1.9906 SNR=14.08
+  band_over_hi=2.6        PESQ=1.9930 SNR=14.06
+best band_over_hi=2.2
+  band_over_mid=1.1        PESQ=1.9898 SNR=14.08
+best band_over_mid=1.4
+  band_over_lo=0.85       PESQ=1.9929 SNR=14.16
+  band_over_lo=1.15       PESQ=1.9870 SNR=13.95
+best band_over_lo=1.0
+  band_ximin_lo_db=-2.5       PESQ=1.9930 SNR=14.06
+  band_ximin_lo_db=-10.0      PESQ=1.9930 SNR=14.06
+best band_ximin_lo_db=-5.0
+  band_ximin_mid_db=-2.5       PESQ=1.9925 SNR=14.06
+  band_ximin_mid_db=-10.0      PESQ=1.9933 SNR=14.06  *
+best band_ximin_mid_db=-10.0
+  band_ximin_hi_db=5.0        PESQ=1.9891 SNR=14.06
+best band_ximin_hi_db=-5.0
+  band_edges_hz=(800.0, 3000.0) PESQ=1.9898 SNR=14.03
+  band_edges_hz=(1000.0, 3000.0) PESQ=1.9889 SNR=14.04
+  band_edges_hz=(1500.0, 5000.0) PESQ=1.9919 SNR=14.09
+  band_edges_hz=(1000.0, 5500.0) PESQ=1.9923 SNR=14.08
+best band_edges_hz=(1000.0, 4000.0)
+  noise_overest=1.4        PESQ=1.9914 SNR=14.16
+  noise_overest=1.8        PESQ=1.9873 SNR=13.95
+best noise_overest=1.6
+  xi_min_db=-30.0      PESQ=1.9918 SNR=14.06
+  xi_min_db=-40.0      PESQ=1.9931 SNR=14.06
+best xi_min_db=-35.0
+  cep_smooth=True       PESQ=1.9423 SNR=11.17
+best cep_smooth=False
+  cep_mix=0.3        PESQ=1.9933 SNR=14.06
+  cep_mix=0.6        PESQ=1.9933 SNR=14.06
+best cep_mix=1.0
+FINAL {'band_over_hi': 2.2, 'band_over_mid': 1.4, 'band_over_lo': 1.0, 'band_ximin_lo_db': -5.0, 'band_ximin_mid_db': -10.0, 'band_ximin_hi_db': -5.0, 'band_edges_hz': (1000.0, 4000.0), 'noise_overest': 1.6, 'xi_min_db': -35.0, 'cep_smooth': False, 'cep_mix': 1.0} PESQ=1.9933

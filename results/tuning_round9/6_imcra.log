@@ -1,0 +1,7 @@
+default  bad-4 1.5986  train-other 2.0567  validation 2.0408
+imcra='replace'                               bad-4 -0.1215  train-other -0.2243  validation -0.2556  | train-all -0.2079
+imcra='min'                                   bad-4 -0.0183  train-other -0.0935  validation -0.0950  | train-all -0.0815
+imcra='replace',imcra_win_s=0.5               bad-4 -0.1580  train-other -0.2377  validation -0.2708  | train-all -0.2250
+imcra='replace',imcra_win_s=1.5               bad-4 -0.1102  train-other -0.2305  validation -0.2506  | train-all -0.2113
+imcra='min',imcra_win_s=0.5                   bad-4 -0.0205  train-other -0.0662  validation -0.0654  | train-all -0.0589
+imcra='replace',imcra_beta=1.0                bad-4 -0.0882  train-other -0.2204  validation -0.2492  | train-all -0.1993

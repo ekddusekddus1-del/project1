@@ -1,0 +1,7 @@
+start PESQ=1.8816 SNR=13.95
+  hp_hz=50         PESQ=1.8670 SNR=13.34
+  hp_hz=80         PESQ=1.8814 SNR=12.69
+  hp_hz=120        PESQ=1.8679 SNR=9.53
+  hp_hz=150        PESQ=1.8740 SNR=7.44
+best hp_hz=0.0
+FINAL {'hp_hz': 0.0} PESQ=1.8816

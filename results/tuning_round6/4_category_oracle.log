@@ -1,0 +1,35 @@
+over 1.2 xi_min -28.0: PESQ 1.9457
+over 1.2 xi_min -35.0: PESQ 1.9517
+over 1.2 xi_min -42.0: PESQ 1.9530
+over 1.6 xi_min -28.0: PESQ 1.9642
+over 1.6 xi_min -35.0: PESQ 1.9740
+over 1.6 xi_min -42.0: PESQ 1.9733
+over 2.2 xi_min -28.0: PESQ 1.9594
+over 2.2 xi_min -35.0: PESQ 1.9673
+over 2.2 xi_min -42.0: PESQ 1.9696
+
+Per category best setting:
+  machine                n= 69 best over=2.2 xi_min=-28.0: 2.002 (default 1.999, +0.003)
+  alarm_siren            n= 62 best over=2.2 xi_min=-42.0: 2.002 (default 1.999, +0.003)
+  wind                   n= 60 best over=1.6 xi_min=-28.0: 2.018 (default 2.014, +0.003)
+  aircraft_cockpit       n= 36 best over=2.2 xi_min=-42.0: 1.832 (default 1.814, +0.018)
+  broadband_noise        n= 34 best over=2.2 xi_min=-42.0: 1.784 (default 1.780, +0.005)
+  water                  n= 19 best over=2.2 xi_min=-28.0: 1.618 (default 1.576, +0.043)
+  animal                 n= 16 best over=2.2 xi_min=-28.0: 1.591 (default 1.584, +0.007)
+  traffic_vehicle        n= 16 best over=2.2 xi_min=-28.0: 1.800 (default 1.790, +0.010)
+  phone_dialing          n= 13 best over=1.2 xi_min=-42.0: 3.368 (default 3.277, +0.091)
+  hf_channel             n= 12 best over=2.2 xi_min=-42.0: 1.743 (default 1.712, +0.031)
+  destroyer_engine       n= 12 best over=1.2 xi_min=-42.0: 1.892 (default 1.882, +0.009)
+  military_vehicle       n= 12 best over=1.6 xi_min=-28.0: 2.475 (default 2.468, +0.007)
+  factory                n= 12 best over=2.2 xi_min=-28.0: 2.194 (default 2.142, +0.052)
+  destroyer_operations   n= 10 best over=1.2 xi_min=-28.0: 2.058 (default 2.045, +0.013)
+  vehicle_interior       n=  5 best over=1.2 xi_min=-28.0: 3.465 (default 3.406, +0.059)
+  bell                   n=  3 best over=2.2 xi_min=-28.0: 1.637 (default 1.605, +0.033)
+  footsteps              n=  2 best over=2.2 xi_min=-28.0: 1.395 (default 1.385, +0.010)
+  tooth_brushing         n=  2 best over=2.2 xi_min=-28.0: 1.179 (default 1.173, +0.006)
+  machine_gun            n=  2 best over=1.2 xi_min=-28.0: 1.804 (default 1.788, +0.016)
+  shower                 n=  2 best over=2.2 xi_min=-42.0: 1.920 (default 1.842, +0.078)
+  door_moving            n=  1 best over=2.2 xi_min=-28.0: 1.390 (default 1.363, +0.027)
+
+best single setting PESQ = 1.9740
+oracle per-category PESQ = 1.9880

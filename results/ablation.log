@@ -1,0 +1,18 @@
+
+== validation (n=164) | noisy PESQ 1.3947
+  full system                      PESQ 2.0512 (+0.0000)  SNR  14.13  worse-than-noisy   4  >0.1 below full   0
+  - multi-resolution fusion        PESQ 2.0408 (-0.0104)  SNR  14.30  worse-than-noisy   5  >0.1 below full   5
+  - modulation post-filter         PESQ 2.0411 (-0.0101)  SNR  14.37  worse-than-noisy   5  >0.1 below full   0
+  - multi-band parameters          PESQ 2.0416 (-0.0096)  SNR  14.16  worse-than-noisy   4  >0.1 below full   8
+  - HRNR                           PESQ 1.9225 (-0.1287)  SNR  13.62  worse-than-noisy   7  >0.1 below full  83
+  - quantile noise estimate        PESQ 2.0230 (-0.0282)  SNR  14.02  worse-than-noisy   5  >0.1 below full  17
+  - noise over-estimation (x1.0)   PESQ 2.0119 (-0.0393)  SNR  14.41  worse-than-noisy   4  >0.1 below full  29
+
+== train (n=1296) | noisy PESQ 1.4704
+  full system                      PESQ 2.0032 (+0.0000)  SNR  13.59  worse-than-noisy 166  >0.1 below full   0
+  - multi-resolution fusion        PESQ 1.9835 (-0.0197)  SNR  13.74  worse-than-noisy 166  >0.1 below full  82
+  - modulation post-filter         PESQ 1.9976 (-0.0056)  SNR  13.83  worse-than-noisy 162  >0.1 below full   4
+  - multi-band parameters          PESQ 1.9940 (-0.0092)  SNR  13.63  worse-than-noisy 160  >0.1 below full  97
+  - HRNR                           PESQ 1.8941 (-0.1091)  SNR  13.08  worse-than-noisy 214  >0.1 below full 588
+  - quantile noise estimate        PESQ 1.9771 (-0.0261)  SNR  13.49  worse-than-noisy 176  >0.1 below full 136
+  - noise over-estimation (x1.0)   PESQ 1.9908 (-0.0124)  SNR  13.93  worse-than-noisy 144  >0.1 below full 208

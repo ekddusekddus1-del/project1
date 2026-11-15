@@ -1,0 +1,23 @@
+start PESQ=1.9740 SNR=14.10
+  band_over_lo=0.7        PESQ=1.9708 SNR=14.24
+  band_over_lo=1.3        PESQ=1.9584 SNR=13.86
+  band_over_lo=1.8        PESQ=1.9252 SNR=13.41
+best band_over_lo=1.0
+  band_over_mid=0.8        PESQ=1.9632 SNR=14.10
+  band_over_mid=1.25       PESQ=1.9792 SNR=14.09  *
+best band_over_mid=1.25
+  band_over_hi=0.7        PESQ=1.9639 SNR=14.08
+  band_over_hi=1.3        PESQ=1.9855 SNR=14.09  *
+  band_over_hi=1.8        PESQ=1.9892 SNR=14.08  *
+best band_over_hi=1.8
+  band_ximin_lo_db=-5.0       PESQ=1.9898 SNR=14.08  *
+  band_ximin_lo_db=5.0        PESQ=1.9854 SNR=14.08
+best band_ximin_lo_db=-5.0
+  band_ximin_mid_db=-5.0       PESQ=1.9914 SNR=14.08  *
+  band_ximin_mid_db=5.0        PESQ=1.9859 SNR=14.08
+best band_ximin_mid_db=-5.0
+  band_ximin_hi_db=-10.0      PESQ=1.9893 SNR=14.08
+  band_ximin_hi_db=-5.0       PESQ=1.9893 SNR=14.08
+  band_ximin_hi_db=5.0        PESQ=1.9894 SNR=14.08
+best band_ximin_hi_db=0.0
+FINAL {'band_over_lo': 1.0, 'band_over_mid': 1.25, 'band_over_hi': 1.8, 'band_ximin_lo_db': -5.0, 'band_ximin_mid_db': -5.0, 'band_ximin_hi_db': 0.0} PESQ=1.9914

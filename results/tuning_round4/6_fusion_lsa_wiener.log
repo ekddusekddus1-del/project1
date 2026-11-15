@@ -1,0 +1,8 @@
+start PESQ=1.8638 SNR=13.86
+  mix_w=0.25       PESQ=1.8534 SNR=13.83
+  mix_w=0.75       PESQ=1.8808 SNR=13.89  *
+best mix_w=0.75
+  noise_overest=1.3        PESQ=1.8776 SNR=14.02
+  noise_overest=2.0        PESQ=1.8721 SNR=13.65
+best noise_overest=1.6
+FINAL {'mix_w': 0.75, 'noise_overest': 1.6} PESQ=1.8808

@@ -1,0 +1,290 @@
+{
+  "split": "validation",
+  "method": "proposed",
+  "params": {
+    "window": "blackman",
+    "frame_ms": 96.0,
+    "hop_ratio": 0.125,
+    "init_fraction": 0.1,
+    "quantile_win_s": 0.5,
+    "quantile_q": 0.4,
+    "quantile_mix": "min",
+    "track_noise": false,
+    "imcra": "off",
+    "imcra_win_s": 1.0,
+    "imcra_alpha_s": 0.9,
+    "imcra_alpha_d": 0.85,
+    "imcra_beta": 1.47,
+    "imcra_bmin": 1.66,
+    "imcra_gamma0": 4.6,
+    "imcra_gamma1": 3.0,
+    "imcra_zeta0": 1.67,
+    "spp_xi_h1_db": 15.0,
+    "spp_prior": 0.5,
+    "noise_alpha": 0.8,
+    "two_pass": true,
+    "gain": "lsa",
+    "dd_alpha": 0.97,
+    "xi_min_db": -35.0,
+    "gain_floor_db": -40.0,
+    "noise_overest": 1.6,
+    "mix_w": 0.5,
+    "beta_order": 0.5,
+    "sg_mu": 1.74,
+    "sg_nu": 0.126,
+    "gain_smooth_t": 1,
+    "gain_smooth_f": 1,
+    "noise_smooth_t": 1,
+    "tsnr": false,
+    "tsnr_gain": "lsa",
+    "tsnr_mix": 1.0,
+    "hrnr": true,
+    "hrnr_gain": "lsa",
+    "hrnr_mix": 0.6,
+    "hrnr_scale": 1.25,
+    "hrnr_iters": 1,
+    "hrnr_nl": "half",
+    "hrnr_rho_pow": 1.0,
+    "band_edges_hz": [
+      1000.0,
+      4000.0
+    ],
+    "band_over_lo": 1.0,
+    "band_over_mid": 1.25,
+    "band_over_hi": 1.8,
+    "band_ximin_lo_db": -5.0,
+    "band_ximin_mid_db": -5.0,
+    "band_ximin_hi_db": 0.0,
+    "cep_smooth": false,
+    "cep_env_ms": 1.0,
+    "cep_alpha_env": 0.2,
+    "cep_alpha_pitch": 0.4,
+    "cep_alpha_rest": 0.9,
+    "cep_mix": 1.0,
+    "adapt": false,
+    "adapt_snr_lo": 0.0,
+    "adapt_snr_hi": 20.0,
+    "adapt_floor_lo_db": -24.0,
+    "adapt_floor_hi_db": -24.0,
+    "adapt_over_lo": 1.6,
+    "adapt_over_hi": 1.6,
+    "tone_scale": 0.0,
+    "tone_thresh_db": 12.0,
+    "tone_min_s": 0.4,
+    "fast_scale": 0.0,
+    "fast_win_s": 0.15,
+    "fast_q": 0.3,
+    "fast_fmax_hz": 500.0,
+    "trans_scale": 0.0,
+    "trans_kernel": 17,
+    "mask_on": false,
+    "mask_lo_db": -15.0,
+    "mask_hi_db": 5.0,
+    "mask_over_strong": 1.3,
+    "mask_over_weak": 0.8,
+    "mask_ximin_strong_db": -5.0,
+    "mask_ximin_weak_db": 5.0,
+    "phase_on": false,
+    "pr_amount": 1.0,
+    "pr_snr0_db": 0.0,
+    "pr_fmax_hz": 4000.0,
+    "pr_vth": 0.5,
+    "pr_frame_ms": 32.0,
+    "pr_lobe": 1,
+    "mod_mode": "post",
+    "mod_ac_ms": 32.0,
+    "mod_ac_hop_ms": 2.0,
+    "mod_win_ms": 256.0,
+    "mod_hop_ratio": 0.125,
+    "mod_dd_alpha": 0.95,
+    "mod_xi_min_db": -10.0,
+    "mod_overest": 1.0,
+    "mod_init_fraction": 0.15,
+    "mod_mix": 0.25,
+    "hp_hz": 0.0,
+    "hp_order": 4,
+    "mr_mode": "min",
+    "mr_frame_ms": 12.0,
+    "mr_weight": 0.4,
+    "mr_an_ms": 16.0,
+    "lhp_on": false,
+    "lhp_fmax_hz": 300.0,
+    "lhp_floor_db": -6.0,
+    "lhp_lobe_hz": 15.0,
+    "lhp_gamma_db": 3.0,
+    "lhp_vth": 0.6,
+    "lhp_frame_ms": 40.0,
+    "refine_th": 0.0,
+    "refine_min_frames": 10
+  },
+  "n": 164,
+  "pesq": 2.0511985130426362,
+  "snr": 14.126899844729223,
+  "pesq_fail": 0,
+  "by_category": {
+    "aircraft_cockpit": {
+      "n": 14,
+      "pesq": 2.04992470570973,
+      "snr": 14.179495578227476,
+      "pesq_fail": 0
+    },
+    "alarm_siren": {
+      "n": 23,
+      "pesq": 2.1651285264803017,
+      "snr": 14.179483684213709,
+      "pesq_fail": 0
+    },
+    "animal": {
+      "n": 2,
+      "pesq": 1.608280897140503,
+      "snr": 15.37962530777521,
+      "pesq_fail": 0
+    },
+    "bell": {
+      "n": 3,
+      "pesq": 1.7751799027125041,
+      "snr": 15.93672875866347,
+      "pesq_fail": 0
+    },
+    "broadband_noise": {
+      "n": 10,
+      "pesq": 1.8224810838699341,
+      "snr": 13.249918930091559,
+      "pesq_fail": 0
+    },
+    "clap": {
+      "n": 1,
+      "pesq": 1.396095633506775,
+      "snr": 15.577523158558561,
+      "pesq_fail": 0
+    },
+    "click": {
+      "n": 1,
+      "pesq": 1.9479830265045166,
+      "snr": 13.219919493500038,
+      "pesq_fail": 0
+    },
+    "destroyer_engine": {
+      "n": 5,
+      "pesq": 1.99179527759552,
+      "snr": 14.604791808487988,
+      "pesq_fail": 0
+    },
+    "destroyer_operations": {
+      "n": 5,
+      "pesq": 2.147918701171875,
+      "snr": 12.314834071033662,
+      "pesq_fail": 0
+    },
+    "door_moving": {
+      "n": 1,
+      "pesq": 2.139812469482422,
+      "snr": 16.56898283078007,
+      "pesq_fail": 0
+    },
+    "factory": {
+      "n": 5,
+      "pesq": 2.207745838165283,
+      "snr": 15.835505365665563,
+      "pesq_fail": 0
+    },
+    "footsteps": {
+      "n": 1,
+      "pesq": 1.243488073348999,
+      "snr": 10.944956471588046,
+      "pesq_fail": 0
+    },
+    "hf_channel": {
+      "n": 4,
+      "pesq": 1.5647436678409576,
+      "snr": 14.276185232762078,
+      "pesq_fail": 0
+    },
+    "machine": {
+      "n": 34,
+      "pesq": 1.9664993601686813,
+      "snr": 14.084012112257412,
+      "pesq_fail": 0
+    },
+    "machine_gun": {
+      "n": 1,
+      "pesq": 2.0403425693511963,
+      "snr": 10.77764026156081,
+      "pesq_fail": 0
+    },
+    "military_vehicle": {
+      "n": 5,
+      "pesq": 2.1400207042694093,
+      "snr": 14.394227499144966,
+      "pesq_fail": 0
+    },
+    "phone_dialing": {
+      "n": 4,
+      "pesq": 3.725163698196411,
+      "snr": 18.13117436075932,
+      "pesq_fail": 0
+    },
+    "shower": {
+      "n": 1,
+      "pesq": 2.521152973175049,
+      "snr": 22.379985069606082,
+      "pesq_fail": 0
+    },
+    "tooth_brushing": {
+      "n": 1,
+      "pesq": 1.751072645187378,
+      "snr": 16.65398028677403,
+      "pesq_fail": 0
+    },
+    "traffic_vehicle": {
+      "n": 9,
+      "pesq": 1.9944378005133734,
+      "snr": 14.810431665805076,
+      "pesq_fail": 0
+    },
+    "vehicle_interior": {
+      "n": 3,
+      "pesq": 2.5591511726379395,
+      "snr": 11.780014917580374,
+      "pesq_fail": 0
+    },
+    "water": {
+      "n": 5,
+      "pesq": 1.6363093852996826,
+      "snr": 16.62055142969458,
+      "pesq_fail": 0
+    },
+    "wind": {
+      "n": 26,
+      "pesq": 2.0702247482079725,
+      "snr": 12.654214120488863,
+      "pesq_fail": 0
+    }
+  },
+  "by_snr": {
+    "0.0": {
+      "n": 15,
+      "pesq": 1.3283187786738078,
+      "snr": 7.471613743214613,
+      "pesq_fail": 0
+    },
+    "10.0": {
+      "n": 55,
+      "pesq": 2.0118191133845937,
+      "snr": 14.238298210331651,
+      "pesq_fail": 0
+    },
+    "15.0": {
+      "n": 56,
+      "pesq": 2.457074069551059,
+      "snr": 17.79670499789862,
+      "pesq_fail": 0
+    },
+    "5.0": {
+      "n": 38,
+      "pesq": 1.7954098770492954,
+      "snr": 11.184618077284473,
+      "pesq_fail": 0
+    }
+  }
+}

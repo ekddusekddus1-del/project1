@@ -1,0 +1,11 @@
+start PESQ=1.7700 SNR=12.18
+  mod_mix=0.25       PESQ=1.9954 SNR=13.80  *
+  mod_mix=0.5        PESQ=1.9780 SNR=13.32
+best mod_mix=0.25
+  mod_xi_min_db=-10.0      PESQ=1.9980 SNR=13.85  *
+  mod_xi_min_db=-5.0       PESQ=1.9947 SNR=13.94
+best mod_xi_min_db=-10.0
+  mod_overest=0.5        PESQ=1.9926 SNR=13.95
+  mod_overest=0.25       PESQ=1.9889 SNR=14.00
+best mod_overest=1.0
+FINAL {'mod_mix': 0.25, 'mod_xi_min_db': -10.0, 'mod_overest': 1.0} PESQ=1.9980

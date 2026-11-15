@@ -1,0 +1,195 @@
+{
+  "split": "validation",
+  "method": "baseline",
+  "params": {
+    "frame_ms": 80.0,
+    "hop_ratio": 0.125,
+    "init_fraction": 0.15,
+    "quantile_win_s": 0.5,
+    "quantile_q": 0.4,
+    "quantile_mix": "min",
+    "track_noise": false,
+    "spp_xi_h1_db": 15.0,
+    "spp_prior": 0.5,
+    "noise_alpha": 0.8,
+    "two_pass": true,
+    "gain": "lsa",
+    "dd_alpha": 0.95,
+    "xi_min_db": -20.0,
+    "gain_floor_db": -21.0,
+    "noise_overest": 1.6,
+    "gain_smooth_t": 1,
+    "gain_smooth_f": 1,
+    "noise_smooth_t": 1
+  },
+  "n": 164,
+  "pesq": 1.6280034562436545,
+  "snr": 13.289780135550835,
+  "pesq_fail": 0,
+  "by_category": {
+    "aircraft_cockpit": {
+      "n": 14,
+      "pesq": 1.709789855139596,
+      "snr": 13.556799392232845,
+      "pesq_fail": 0
+    },
+    "alarm_siren": {
+      "n": 23,
+      "pesq": 1.5594228506088257,
+      "snr": 13.117957801151453,
+      "pesq_fail": 0
+    },
+    "animal": {
+      "n": 2,
+      "pesq": 1.4417423605918884,
+      "snr": 15.69121469305935,
+      "pesq_fail": 0
+    },
+    "bell": {
+      "n": 3,
+      "pesq": 1.5778334935506184,
+      "snr": 15.104562281524068,
+      "pesq_fail": 0
+    },
+    "broadband_noise": {
+      "n": 10,
+      "pesq": 1.5263174533843995,
+      "snr": 12.92527099405982,
+      "pesq_fail": 0
+    },
+    "clap": {
+      "n": 1,
+      "pesq": 1.2842007875442505,
+      "snr": 15.10257888834273,
+      "pesq_fail": 0
+    },
+    "click": {
+      "n": 1,
+      "pesq": 1.4381117820739746,
+      "snr": 11.984673691222824,
+      "pesq_fail": 0
+    },
+    "destroyer_engine": {
+      "n": 5,
+      "pesq": 1.7238567113876342,
+      "snr": 13.956993706356519,
+      "pesq_fail": 0
+    },
+    "destroyer_operations": {
+      "n": 5,
+      "pesq": 1.627847957611084,
+      "snr": 11.177601305954799,
+      "pesq_fail": 0
+    },
+    "door_moving": {
+      "n": 1,
+      "pesq": 1.6398423910140991,
+      "snr": 15.86642345234826,
+      "pesq_fail": 0
+    },
+    "factory": {
+      "n": 5,
+      "pesq": 1.6982275724411011,
+      "snr": 14.753035869780144,
+      "pesq_fail": 0
+    },
+    "footsteps": {
+      "n": 1,
+      "pesq": 1.1735843420028687,
+      "snr": 10.518318266720692,
+      "pesq_fail": 0
+    },
+    "hf_channel": {
+      "n": 4,
+      "pesq": 1.3802319169044495,
+      "snr": 13.761719396933723,
+      "pesq_fail": 0
+    },
+    "machine": {
+      "n": 34,
+      "pesq": 1.6079246086232803,
+      "snr": 13.346302765551483,
+      "pesq_fail": 0
+    },
+    "machine_gun": {
+      "n": 1,
+      "pesq": 1.8668116331100464,
+      "snr": 10.57026819715217,
+      "pesq_fail": 0
+    },
+    "military_vehicle": {
+      "n": 5,
+      "pesq": 1.5486126661300659,
+      "snr": 12.898593753396028,
+      "pesq_fail": 0
+    },
+    "phone_dialing": {
+      "n": 4,
+      "pesq": 2.62764048576355,
+      "snr": 16.65625146566935,
+      "pesq_fail": 0
+    },
+    "shower": {
+      "n": 1,
+      "pesq": 2.0599446296691895,
+      "snr": 22.25876394656584,
+      "pesq_fail": 0
+    },
+    "tooth_brushing": {
+      "n": 1,
+      "pesq": 1.6970510482788086,
+      "snr": 16.221772629739277,
+      "pesq_fail": 0
+    },
+    "traffic_vehicle": {
+      "n": 9,
+      "pesq": 1.6067619853549533,
+      "snr": 14.217937188047673,
+      "pesq_fail": 0
+    },
+    "vehicle_interior": {
+      "n": 3,
+      "pesq": 1.9819085200627644,
+      "snr": 10.764881585102728,
+      "pesq_fail": 0
+    },
+    "water": {
+      "n": 5,
+      "pesq": 1.3522687196731566,
+      "snr": 15.38191716749094,
+      "pesq_fail": 0
+    },
+    "wind": {
+      "n": 26,
+      "pesq": 1.6264422719295208,
+      "snr": 11.65388962028542,
+      "pesq_fail": 0
+    }
+  },
+  "by_snr": {
+    "0.0": {
+      "n": 15,
+      "pesq": 1.1562820593516032,
+      "snr": 6.310787286495696,
+      "pesq_fail": 0
+    },
+    "10.0": {
+      "n": 55,
+      "pesq": 1.5856293873353438,
+      "snr": 13.505839172168647,
+      "pesq_fail": 0
+    },
+    "15.0": {
+      "n": 56,
+      "pesq": 1.9434686132839747,
+      "snr": 16.860301242385805,
+      "pesq_fail": 0
+    },
+    "5.0": {
+      "n": 38,
+      "pesq": 1.410644139114179,
+      "snr": 10.470108128684771,
+      "pesq_fail": 0
+    }
+  }
+}

@@ -1,0 +1,4 @@
+A [validation/proposed] n=164 PESQ=2.0305 SNR=14.516 dB fails=0
+B [validation/proposed] n=164 PESQ=2.0310 SNR=14.500 dB fails=0
+A [train/proposed] n=1296 PESQ=1.9789 SNR=13.963 dB fails=0
+B [train/proposed] n=1296 PESQ=1.9787 SNR=13.941 dB fails=0
